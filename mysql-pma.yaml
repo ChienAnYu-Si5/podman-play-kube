@@ -32,7 +32,7 @@ spec:
     - name: PMA_PORT
       value: "3306"
     - name: PMA_HOST
-      value: db
+      value: mysql-pma-db
     image: docker.io/phpmyadmin/phpmyadmin:latest
     name: pma
     ports:
